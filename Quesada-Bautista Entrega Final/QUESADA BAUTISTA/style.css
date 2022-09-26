@@ -1,0 +1,585 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+}
+
+button {
+    background-color: #8B48BF;
+    border-style: none;
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    padding: 10px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+
+/* ________________HEADER_______________________ */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 50px 50px 0px;
+}
+
+.menu {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    list-style-type: none;
+}
+
+nav a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #242E52;
+}
+nav a:hover{
+    color:#8B48BF;
+}
+header button:hover{
+    background-color:#FFFFFF;
+    color: #8B48BF;
+    border: solid #8B48BF 2px;
+}
+
+/* _____________________CAJA 1_______________ */
+
+.caja_1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 200px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 450px;
+}
+
+.titulo h1 {
+    width: 439px;
+    font-size: 50px;
+    color: #232C50;
+}
+
+.titulo p {
+    width: 350px;
+    height: 71px;
+    padding-top: 5px;
+}
+
+.estadisticas {
+    display: flex;
+    height: 450px;
+}
+
+/* ____________________CAJA2__________________ */
+
+.caja_2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 480px;
+    padding-left: 140px;
+}
+
+.titulo2 h2 {
+    width: 460px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #232851;
+}
+
+.titulo2 p {
+    width: 350px;
+    padding-top: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.titubot {
+    margin-left: 4rem;
+}
+
+.botones div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.botones div h4 {
+    width: 300px;
+    height: 50px;
+    color: #323851;
+}
+
+.botones div button {
+    position: absolute;
+    top: -0.5rem;
+    left: -4rem;
+    width: 3.5rem;
+    height: 2rem;
+}
+
+.botones p {
+    width: 550px;
+    height: 130px;
+    margin-left: 4rem;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+    color: #B3B2B7;
+}
+
+/* ___________CAJA 3_____________ */
+
+.caja_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    height: 450px;
+}
+
+.caja_3 article h3 {
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 30px;
+    color: #242E53;
+}
+
+.testimonios {
+    display: flex;
+}
+
+.testimonios div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    padding: 40px;
+    background-color: #FAFAFA;
+}
+
+.testimonios p {
+    text-align: center;
+    width: 390px;
+    height: 78px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #B9B9C1
+}
+
+/* ______________FOOTER_1_____________ */
+
+.Footer1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    padding: 50px;
+    background-color: #8B48BF;
+}
+
+.Footer1 h3 {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+}
+
+.Footer1 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 134px;
+    height: 44px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    color: #8B48BF;
+}
+.Footer1 button:hover{
+    background-color:#8B48BF;
+    color: #FFFFFF;
+    border: solid white 2px;
+}
+
+/* _______________________FOOTER_2__________________ */
+
+.containerFooter2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #1E1E26;
+}
+
+.Footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#iconos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3.5rem;
+    gap: 35px;
+}
+
+#lista {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem;
+}
+
+#lista ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 30px;
+    gap: 15px;
+}
+
+#lista ul li {
+    display: flex;
+    list-style-type: none;
+}
+
+#lista a {
+    display: flex;
+    text-decoration: none;
+    color: white
+}
+
+#formSpan {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#formSpan form {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 5px;
+}
+
+#formSpan form input {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+
+#formSpan form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 65px;
+    height: 40px;
+    background: #8B48BF;
+}
+
+#formSpan span {
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #8C8C94;
+}
+
+
+/* __________________MOBILE________________ */
+
+
+    @media (max-width:480px) {
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        font-family: 'Be Vietnam Pro', sans-serif;
+    }
+
+    /* _______________HEADER________________________ */
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 120px;
+        margin: 25px;
+    }
+
+    .menu {
+        display: flex;
+        width: 100%;
+        padding-right: 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    /* ______________CAJA_1____________________ */
+
+    .caja_1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 450px;
+        gap: 20px;
+    }
+
+    .titulo h1 {
+        text-align: center;
+        font-size: 50px;
+        color: #232C50;
+    }
+
+    .titulo p {
+        width: 350px;
+    }
+
+    .estadisticas {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        width: auto;
+        height: auto;
+    }
+
+    .estadisticas img {
+        position: relative;
+        width: 100%;
+    }
+
+    /* ____________________CAJA_2_________________ */
+
+    .caja_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: auto;
+        margin: 0px;
+    }
+
+    .titulo2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0px;
+    }
+
+    .titulo2 h2 {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .titulo2 p {
+        text-align: center;
+        padding-top: 15px;
+        width: auto;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    article.botones{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        padding-top: 60px;
+        gap: 20px;
+    }
+
+    .titubot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 470px;
+        height: 2.5rem;
+        gap: 5px;
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+        margin: 0px;
+    }
+
+    .titubot h4 {
+        display: flex;
+        align-items: center;
+    }
+
+    .botones div button {
+        position: relative;
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 0px;
+        top: 0rem;
+        left: -2.8rem;
+        width: 4.5rem;
+        height: 2.5rem;
+    }
+
+    .botones p {
+        left: 6rem;
+        width: auto;
+        width: 380px;
+        margin: 0px;
+        height: auto;
+    }
+
+    /* ___________CAJA 3_____________ */
+
+    .caja_3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        height: 450px;
+    }
+
+    .caja_3 article h3 {
+        font-size: 35px;
+        font-weight: 700;
+        padding-top: 30px;
+    }
+
+    .testimonios {
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+
+    .testimonios div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    div.activado {
+        display: flex;
+    }
+
+    div.desactivado {
+        display: none;
+    }
+
+    /* ___________FOOTER_1___________ */
+
+    section.Footer1 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: auto;
+    }
+    section.Footer1 h3{
+        
+        text-align: center;
+        width: auto;
+    }
+    
+    /* _____________FOOTER_2_____________ */
+
+    section.Footer2 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 30px;
+        gap: 20px;
+    }
+
+    article#iconos {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #iconos div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+    article#lista{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    article#lista ul.lista_2{
+        width: auto;
+        height: 20px;
+    }
+
+
+    article#formSpan form {
+        padding-top: 35px;
+    }
+
+    span.copyright {
+        position: relative;
+        text-align: center;
+        top: 400px;
+        bottom: 10px;
+    }
+
+}
